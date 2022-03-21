@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #B4F8C8;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-wrapper {
+    background-color: #A0E7E5;
+    min-width: 250px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.title{
+    text-align: center;
+    color: #3d5b59;
+}
+
+.name,
+.email,
+.password {
+    margin: 15px;
+    color: #3d5b59;
+    font-size: 16px;
+}
+
+.password {
+    margin-bottom: 40px;
+}
+
+.input {
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+}
+
+.error{
+    color: red;
+}
